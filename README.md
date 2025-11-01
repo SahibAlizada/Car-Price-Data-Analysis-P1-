@@ -6,6 +6,7 @@ Bu layihənin məqsədi — avtomobillərin marka, model, il, yürüş, yanacaq 
 Data Mənbəsi
 
 Dataset: Car Price Prediction (Kaggle)
+Link : https://www.kaggle.com/datasets/hellbuoy/car-price-prediction
 
 Addımlar
 
