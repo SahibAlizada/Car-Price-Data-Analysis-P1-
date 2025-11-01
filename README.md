@@ -1,14 +1,15 @@
-🚗 Car Price Prediction — Data Analytics Project
-📌 Məqsəd
+Car Price Prediction — Data Analytics Project
+Məqsəd
 
 Bu layihənin məqsədi — avtomobillərin marka, model, il, yürüş, yanacaq növü, mühərrik gücü və digər xüsusiyyətlərinə əsaslanaraq qiymətini proqnozlaşdırmaq və qiymətə təsir edən əsas faktorları müəyyən etməkdir.
 
-📊 Data Mənbəsi
+Data Mənbəsi
 
 Dataset: Car Price Prediction (Kaggle)
 
-🧩 Addımlar
-1️⃣ Kitabxanaların Yüklənməsi
+Addımlar
+
+--- Kitabxanaların Yüklənməsi
 
 Layihədə istifadə olunan əsas kitabxanalar:
 
@@ -22,12 +23,12 @@ seaborn
 
 Bu kitabxanalar məlumatların emalı, analiz və vizuallaşdırılması üçün istifadə olunur.
 
-2️⃣ Data-nın Yüklənməsi
+--- Data-nın Yüklənməsi
 
 Məlumatlar Google Colab mühitində işlənib.
 Dataset drive üzərindən yüklənərək Colab mühitinə daxil edilib.
 
-3️⃣ Data-nın İlkin Analizi
+--- Data-nın İlkin Analizi
 
 Məlumatları daha yaxşı anlamaq üçün aşağıdakı funksiyalardan istifadə olunub:
 
@@ -39,7 +40,7 @@ data.info()
 
 Bu mərhələdə data strukturuna, sütun adlarına, dəyərlərin növünə və ümumi keyfiyyətinə baxılıb.
 
-4️⃣ Data Cleaning
+--- Data Cleaning
 
 Null dəyərlər yoxlanılıb və lazım olduqda ortalama ilə əvəz edilib.
 
@@ -49,7 +50,7 @@ Data tipləri (integer, float, object) uyğunlaşdırılıb.
 
 Bu mərhələ analiz üçün datanı tam təmiz vəziyyətə gətirib.
 
-5️⃣ EDA (Exploratory Data Analysis)
+--- EDA (Exploratory Data Analysis)
 
 Vizual analiz mərhələsində aşağıdakı üsullardan istifadə olunub:
 
@@ -59,7 +60,7 @@ Pairplot (dəyişənlər arası əlaqələr üçün)
 
 Korelyasiya matrixi (qiymətə təsir edən əsas dəyişənləri tapmaq üçün)
 
-6️⃣ Korelyasiya Analizi
+--- Korelyasiya Analizi
 
 Korelyasiya matrisinə əsasən:
 
@@ -67,7 +68,7 @@ enginesize, horsepower, curbweight və width kimi sütunlar qiymətə müsbət t
 
 fueltype dəyişəni üzrə diesel avtomobillər ortalama olaraq gas avtomobillərdən ucuzdur.
 
-💡 Əsas Tapıntılar
+--- Əsas Tapıntılar
 
 Mühərrik ölçüsü (enginesize) və horsepower artdıqca avtomobilin qiyməti yüksəlir.
 
@@ -79,7 +80,7 @@ Curbweight (çəki) və width (eni) qiymətə güclü müsbət təsir göstərir
 
 Ümumilikdə, texniki parametrlər (ölçü, güc, çəki) avtomobilin qiymətini müəyyən edən əsas göstəricilərdir.
 
-📈 Nəticə və Tövsiyələr
+--- Nəticə və Tövsiyələr
 
 Qiymət təyin etmə modellərində texniki dəyişənlərə (engine, horsepower, curbweight) üstünlük verilməlidir.
 
@@ -87,7 +88,7 @@ Avtomobil istehsalçıları enerji səmərəliliyi və güc balansını optimall
 
 Əlavə model qurulması üçün Machine Learning modelləri (Linear Regression, Random Forest və s.) tətbiq edilə bilər.
 
-🧠 Gələcək Addımlar
+--- Gələcək Addımlar
 
 Modelin təkmilləşdirilməsi üçün feature engineering üsulları əlavə edilə bilər.
 
